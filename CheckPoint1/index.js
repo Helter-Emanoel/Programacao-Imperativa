@@ -66,6 +66,7 @@ function microondas(opcao, tempo) {
   } else if (opcao == brigadeiro && tempo < "08 segundos") {
     console.log("Tempo insuficiente para o Brigadeiro");
   }
+  return;
 }
 
-console.log(microondas(pip, "09 segundos"));
+console.log(microondas(pipoca, "09 segundos"));
